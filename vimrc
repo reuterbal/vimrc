@@ -5,7 +5,9 @@ set encoding=utf-8
 set t_Co=256  " 256 colors
 
 " Show syntax and line numbers
-syntax on
+syntax enable
+set background=dark
+colorscheme solarized
 set number
 
 filetype plugin indent on
